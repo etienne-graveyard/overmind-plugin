@@ -10,7 +10,9 @@
     "build": "microbundle",
     "dev": "microbundle watch",
     "travis-deploy-once": "travis-deploy-once",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "repository": "git+https://github.com/etienne-dldc/overmind-plugin.git",
   "keywords": [],
@@ -21,9 +23,12 @@
   },
   "homepage": "https://github.com/etienne-dldc/overmind-plugin#readme",
   "devDependencies": {
+    "@types/jest": "^23.3.3",
+    "jest": "^23.6.0",
     "microbundle": "^0.6.0",
     "semantic-release": "^15.9.17",
-    "typescript": "^3.1.1",
-    "travis-deploy-once": "^5.0.9"
+    "travis-deploy-once": "^5.0.9",
+    "ts-jest": "^23.10.3",
+    "typescript": "^3.1.1"
   }
 }
