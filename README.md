@@ -1,2 +1,3 @@
-# overmind-plugin
-A plugin system fro overmind
+# Overmind Plugin
+
+A plugin system for overmind
