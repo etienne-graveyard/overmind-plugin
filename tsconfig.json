@@ -5,10 +5,11 @@
     "module": "esnext",
     "allowJs": false,
     "strict": true,
-    "baseUrl": "./",
+    "baseUrl": "./src",
     "typeRoots": ["./types", "./node_modules/@types"],
     "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "outDir": "build"
   },
-  "exclude": ["node_modules", "dist", ".rpt2_cache"]
+  "exclude": ["node_modules", "dist", ".rpt2_cache", "tests"]
 }
