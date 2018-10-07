@@ -1,6 +1,6 @@
 # Overmind Plugin
 
-A plugin system for overmind allowing deeply nested `state`, `actions`, `reactions`, `effects` and `onInitialize`.
+A plugin system for [overmind](https://www.overmindjs.org/) allowing deeply nested `state`, `actions`, `reactions`, `effects` and `onInitialize`.
 
 ## Usage
 
