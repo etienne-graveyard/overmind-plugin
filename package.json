@@ -10,6 +10,7 @@
     "build": "microbundle --format es,cjs",
     "dev": "microbundle  --format es,cjs watch",
     "travis-deploy-once": "travis-deploy-once",
+    "prepare": "yarn build",
     "semantic-release": "semantic-release",
     "test": "jest",
     "test:watch": "jest --watch"
