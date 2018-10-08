@@ -200,13 +200,21 @@ function getInitializers(configuration: Configuration) {
   return onInitializeParallel;
 }
 
-export function resolvePlugins<Config extends Configuration>(config: Config) {
+export function resolvePlugins<Config extends Configuration>(
+  config: Config
+): {
+  state: TState<Config>;
+  effects: TEffects<Config>;
+  actions: TActions<Config>;
+  reactions: any;
+  onInitialize: any;
+} {
   mutatePluginFunctionsIntoPlugins(config);
   return {
-    state: getConfigKey(config, 'state') as TState<Config>,
-    effects: getConfigKey(config, 'effects') as TEffects<Config>,
-    actions: getConfigKey(config, 'actions') as TActions<Config>,
-    reactions: getConfigKey(config, 'reactions') as any,
-    onInitialize: getInitializers(config) as any,
-  };
+    state: getConfigKey(config, 'state'),
+    effects: getConfigKey(config, 'effects'),
+    actions: getConfigKey(config, 'actions'),
+    reactions: getConfigKey(config, 'reactions'),
+    onInitialize: getInitializers(config),
+  } as any;
 }

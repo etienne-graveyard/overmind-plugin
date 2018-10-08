@@ -25,13 +25,13 @@ export type WithoutNever<T> = (
 export type WithoutNeverDeep<T> = (
   // WithoutNever<WithoutNever<WithoutNever<WithoutNever<WithoutNever<
     // WithoutNever<WithoutNever<WithoutNever<WithoutNever<WithoutNever<
-      // WithoutNever<WithoutNever<WithoutNever<WithoutNever<WithoutNever<
-        // WithoutNever<WithoutNever<WithoutNever<WithoutNever<
+      WithoutNever<WithoutNever<WithoutNever<WithoutNever<WithoutNever<
+        WithoutNever<WithoutNever<WithoutNever<WithoutNever<
           WithoutNever<
             T
           >
-        // >>>>
-      // >>>>>
+        >>>>
+      >>>>>
     // >>>>>
   // >>>>>
 );
