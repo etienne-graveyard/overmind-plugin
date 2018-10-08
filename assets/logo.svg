@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1000px" height="350px" viewBox="0 0 1000 350" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-4" transform="translate(93.000000, 40.000000)">
+            <g id="Group" transform="translate(407.000000, 135.500000) rotate(-180.000000) translate(-407.000000, -135.500000) translate(0.000000, 43.000000)" stroke="#133046" stroke-width="38.9999986">
+                <path d="M137.799995,139.099995 C137.799995,88.1241144 96.7668938,46.7999983 46.1499983,46.7999983 C-4.46689716,46.7999983 -45.4999983,88.1241144 -45.4999983,139.099995" id="Oval" transform="translate(46.149998, 92.949997) rotate(-90.000000) translate(-46.149998, -92.949997) "></path>
+                <path d="M858.699969,137.799995 C858.699969,86.8241144 817.666868,45.4999983 767.049972,45.4999983 C716.433077,45.4999983 675.399976,86.8241144 675.399976,137.799995" id="Oval" transform="translate(767.049972, 91.649997) rotate(-270.000000) translate(-767.049972, -91.649997) "></path>
+            </g>
+            <g id="Group-2" transform="translate(123.000000, 0.000000)" fill="#133046" font-family="FiraCode-Regular, Fira Code" font-size="118.299996" font-weight="normal">
+                <text id="OVERMIND" line-spacing="136.499995">
+                    <tspan x="0" y="111">OVERMIND</tspan>
+                </text>
+                <text id="PLUG—IN" letter-spacing="11.3999996">
+                    <tspan x="0.870010257" y="240">PLUG—I</tspan>
+                    <tspan x="495.149992" y="240">N</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

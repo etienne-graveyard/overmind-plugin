@@ -1,6 +1,16 @@
+<div align="center">
+<br>
+<img src="https://github.com/etienne-dldc/overmind-plugin/blob/master/assets/logo.svg" width="600px">
+<br>
+</div>
+
 # Overmind Plugin
 
 A plugin system for [overmind](https://www.overmindjs.org/) allowing deeply nested `state`, `actions`, `reactions`, `effects` and `onInitialize`.
+
+```
+npm install overmind-plugin
+```
 
 ## Usage
 
